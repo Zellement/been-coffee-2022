@@ -1,19 +1,18 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Nav from './Nav'
+// import React from "react"
+// import PropTypes from "prop-types"
+// import Nav from './Nav'
 
-const Header = ({ siteTitle }) => (
-  <header>
-      <Nav />
-  </header>
-)
+// const Header = ({ siteTitle }) => (
+//   <header>header
+//   </header>
+// )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+// Header.propTypes = {
+//   siteTitle: PropTypes.string,
+// }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+// Header.defaultProps = {
+//   siteTitle: ``,
+// }
 
-export default Header
+// export default Header

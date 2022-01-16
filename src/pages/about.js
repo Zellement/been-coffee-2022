@@ -1,10 +1,12 @@
 import React from "react"
 import Seo from "../components/Seo"
+import Nav from "../components/Nav"
 
 const AboutPage = () => {
   return (
     <>
       <Seo title="Home" />
+      <Nav />
       <section className="max-w-screen-md mx-auto">
         <div className="content">
           <h1 className="">Home Page</h1>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby & Tailwind Starter`,
-    description: `An opinionated starter for Gatsby v3 with TailwindCSS, PostCSS and Framer Motion page transitions.`,
+    title: `Been Coffee`,
+    description: `Independent, family-run coffee shop`,
     author: `@zellement`,
   },
   plugins: [
@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -25,7 +26,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/favicon.png`,
       },
     },
   ],

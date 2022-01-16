@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { motion, AnimatePresence } from 'framer-motion'
 
-import Header from "./Header"
+// import Header from "./Header"
 
 const duration = 0.35
 
@@ -40,7 +40,6 @@ const Layout = ({ children, location }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <AnimatePresence>
         <motion.main
           key={location.pathname}
