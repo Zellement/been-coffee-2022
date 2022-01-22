@@ -15,7 +15,7 @@ export default function Nav( {linkClassName} ) {
               exit={{ x: "-500" }}
               className="fixed top-0 left-0 z-50"
             >
-              <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="is-active" to="/">
+              <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} to="/">
                 <Logo className="w-24 h-auto lg:w-56" />
               </Link>
             </motion.li>
@@ -26,7 +26,7 @@ export default function Nav( {linkClassName} ) {
           animate={{ x: 0 }}
           className="fixed top-0 right-0 z-50"
         >
-          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="is-active" to="/about/">
+          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="text-butterscotch" to="/where/">
             Where
           </Link>
         </motion.li>
@@ -36,7 +36,7 @@ export default function Nav( {linkClassName} ) {
           animate={{ x: 0 }}
           className="fixed bottom-0 left-0 z-50"
         >
-          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="is-active" to="/who/">
+          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="text-butterscotch" to="/who/">
             Who
           </Link>
         </motion.li>
@@ -46,7 +46,7 @@ export default function Nav( {linkClassName} ) {
           animate={{ x: 0 }}
           className="fixed bottom-0 right-0 z-50"
         >
-          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="is-active" to="/contact/">
+          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 " + linkClassName} activeClassName="text-butterscotch" to="/contact/">
             Contact
           </Link>
         </motion.li>

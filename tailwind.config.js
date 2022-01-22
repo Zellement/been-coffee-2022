@@ -1,6 +1,7 @@
 module.exports = {
   mode: "jit",
   content: ["./src/**/*.js"],
+  safelist: ["is-active"],
   theme: {
     fontSize: {
       "2xs": "1.4rem",

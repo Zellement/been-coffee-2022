@@ -39,7 +39,7 @@ html {
 
 body {
   font-size: 62.5%;
-  @apply relative font-sans text-sm antialiased font-normal leading-normal xl:text-base ;
+  @apply relative text-sm antialiased font-normal leading-normal text-navy font-krete xl:text-base ;
 }
 
 body::after {
@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply p-0 mb-6 font-bold leading-tight;
+  @apply p-0 mb-6 font-normal leading-tight;
 }
 
 h1 {
@@ -96,4 +96,8 @@ Content
 
 .overlay {
   clip-path: polygon(0 0, 100% 15%, 100% 75%, 0 90%);
+}
+
+.where-image {
+  clip-path: polygon(0 0, 99% 0, 100% 85%, 0 100%);
 }

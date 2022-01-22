@@ -14,11 +14,26 @@ const IndexPage = () => {
       />
       <Nav linkClassName="text-navy" />
       <div className="relative flex w-full h-screen overflow-hidden">
+
+        {/* Mobile */}
+
         <StaticImage
           className="object-cover w-full h-full lg:hidden homepage-image homepage-image--mobile"
           src="../images/index/mobile.jpg"
           alt="Been Coffee"
         />
+
+        <AnimatePresence>
+          <motion.div
+            initial={{ width: "0", opacity: 0 }}
+            transition={{ delay: 1.5, duration: 2,  type: "tween" }}
+            animate={{ width: "100%", opacity: 1 }}
+            className="absolute bottom-0 right-0 w-full h-[300px] max-w-[400px] lg:hidden bg-tuscany overlay"
+          ></motion.div>
+        </AnimatePresence>
+
+        {/* Desktop */}
+
         <StaticImage
           className="hidden object-cover w-full h-full lg:block homepage-image"
           src="../images/index/desktop.jpg"
@@ -53,7 +68,7 @@ const IndexPage = () => {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 2.3, duration: 1, type: "intertia" }}
-              className="font-riverside text-tuscany lg:text-white lg:text-6xl"
+              className="text-white font-riverside lg:text-6xl"
             >
               Tea. Hot Chocolate.
             </motion.p>
