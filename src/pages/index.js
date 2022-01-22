@@ -29,7 +29,7 @@ const IndexPage = () => {
           <motion.div
             initial={{ width: "0" }}
             transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
-            animate={{ width: "40%" }}
+            animate={{ width: "35%" }}
             exit={{ x: "-500" }}
             className="absolute inset-0 hidden w-2/5 h-full lg:block bg-tuscany overlay"
           ></motion.div>
