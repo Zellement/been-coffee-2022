@@ -61,7 +61,7 @@ const WherePage = () => {
           <StaticImage
             className="object-cover w-full h-full where-image"
             src="../images/where/outside.jpg"
-            alt="Inside Been Coffee"
+            alt="External shot of Been Coffee"
           />
         </div>
 

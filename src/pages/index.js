@@ -17,11 +17,13 @@ const IndexPage = () => {
 
         {/* Mobile */}
 
-        <StaticImage
-          className="object-cover w-full h-full lg:hidden homepage-image homepage-image--mobile"
-          src="../images/index/mobile.jpg"
-          alt="Been Coffee"
-        />
+        <div className="w-full h-full lg:hidden homepage-image homepage-image--mobile">
+          <StaticImage
+            className="object-cover w-full h-full"
+            src="../images/index/mobile.jpg"
+            alt="Barista at Been Coffee"
+          />
+        </div>
 
         <AnimatePresence>
           <motion.div
@@ -34,11 +36,13 @@ const IndexPage = () => {
 
         {/* Desktop */}
 
-        <StaticImage
-          className="hidden object-cover w-full h-full lg:block homepage-image"
-          src="../images/index/desktop.jpg"
-          alt="Been Coffee"
-        />
+        <div className="hidden w-full h-screen lg:block homepage-image">
+          <StaticImage
+            className="object-cover w-full h-full"
+            src="../images/index/desktop.jpg"
+            alt="Internal shot of Been Coffee"
+          />
+        </div>
 
         <AnimatePresence>
           <motion.div
@@ -91,29 +95,6 @@ const IndexPage = () => {
           </div>
         </AnimatePresence>
       </div>
-      {/* <section className="max-w-screen-md px-4 py-40 mx-auto">
-        <div className="content">
-          <h1 className="">Home Page</h1>
-        </div>
-
-        <div className="content">
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-
-          <h2>Lorem ipsum dolor sit amet</h2>
-
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-        </div>
-      </section> */}
     </>
   )
 }
