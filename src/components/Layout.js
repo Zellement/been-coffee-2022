@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 // import Header from "./Header"
 
-const duration = 0.35
+const duration = 0.4
 
 const variants = {
   initial: {

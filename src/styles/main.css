@@ -34,7 +34,7 @@
 
 html {
   font-size: 62.5%;
-  /* min-height: 101%; */
+  min-height: 101%;
 }
 
 body {
@@ -87,9 +87,13 @@ Content
 }
 
 .homepage-image {
-
+  clip-path: polygon(0 0, 100% 15%, 100% 75%, 0 90%);
 }
 
 .homepage-image--mobile {
   clip-path: polygon(0 0, 100% 0%, 100% 60%, 0% 75%);
+}
+
+.overlay {
+  clip-path: polygon(0 0, 100% 15%, 100% 75%, 0 90%);
 }
