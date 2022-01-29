@@ -5,12 +5,12 @@ import Nav from "../components/Nav"
 import { StaticImage } from "gatsby-plugin-image"
 import { AnimatePresence, motion } from "framer-motion"
 
-const IndexPage = () => {
+export default function IndexPage() {
   return (
     <>
       <Seo
         title="Home"
-        description="Been Coffee is an independent, family-run coffee shop near Willington, UK"
+        description="Been Coffee is an independent, family-run coffee shop with amazing coffee, cakes, cobs & paninis near Derby & Willington, UK"
       />
       <Nav linkClassName="text-navy" />
       <div className="relative flex w-full h-screen overflow-hidden">
@@ -106,5 +106,3 @@ const IndexPage = () => {
     </>
   )
 }
-
-export default IndexPage

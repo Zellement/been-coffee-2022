@@ -1,6 +1,7 @@
 import React from "react"
 import Seo from "../components/Seo"
 import Nav from "../components/Nav"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -10,19 +11,51 @@ import imgArrowBee from "../images/arrow-bee.svg"
 import { BsChatQuote } from "react-icons/bs"
 import { motion } from "framer-motion"
 
-export default function WherePage() {
+export default function WhoPage() {
   return (
     <>
-      <Seo title="Find Us" description="Been Coffee is at the Derby & Burton Services, off the A50 and A38 Toyota Island" />
+      <Seo
+        title="Who are we?"
+        description="Been Coffee is a small, independent family-run coffee shop near Derby and Willington, UK"
+      />
       <Nav />
       <section className="max-w-screen-md px-8 mx-auto mt-40">
         <div className="content">
           <h1 className="text-4xl text-center font-riverside lg:text-7xl text-tuscany">
-            Where are we?
+            Who are we?
           </h1>
         </div>
       </section>
-      <section className="px-8 mx-auto mb-40 overflow-hidden max-w-screen-3xl">
+      <section className="">
+        <div className="relative lg:flex lg:flex-row">
+          <StaticImage
+            className="object-cover w-full h-full g:items-center saz-martin-hero lg:w-3/4 xl:w-3/4"
+            src="../images/who/saz-martin-hero.jpg"
+            alt="Martin and Sarah, Directors of Been Coffee"
+          />
+          <span className="absolute bottom-0 left-0 px-3 py-2 mb-4 ml-4 text-xs font-bold sm:text-base bg-seashell lg:right-0 lg:inset-auto lg:top-1/2 lg:w-4/12 lg:p-8 lg:-ml-8 xl:w-1/3">
+            Martin &amp; Sarah
+            <span className="block font-normal text-[0.9em]">Directors of Been Coffee</span>
+          </span>
+        </div>
+      </section>
+      <section className="relative max-w-screen-lg mx-auto mt-4 lg:-mt-8 ">
+        <div className="p-4 content bg-seashell lg:p-16">
+        <h2 className="text-2xl text-center font-riverside-outline lg:text-5xl">Hello! We're Been Coffee.</h2>
+        <p>Been Coffee was founded in late 2021 by Martin and Sarah, with a view to offer an alternative to big brand chains and UHT milk coffee machines.</p>
+
+        <h3>Doing our bit for the environment</h3>
+        
+        <p>We strive to make everything as environmentally friendly and sustainable as possible; our takeaway cups are compostable (even the lids!), our pre-packed drinks all all in cans (no plastic!) and we strive to choose <AnchorLink href="#supplier">suppliers</AnchorLink> that share our vision for a greener future.</p>
+      </div>
+      </section>
+      <section className="relative max-w-screen-lg mx-auto mt-4 lg:-mt-8 ">
+        <div className="p-4 content bg-seashell lg:p-16">
+        
+        <h2 className="text-2xl text-center font-riverside-outline lg:text-5xl">Meet Your Friendly Been Team</h2>
+        </div>
+      </section>
+      {/* <section className="px-8 mx-auto mb-40 overflow-hidden max-w-screen-3xl">
         <div className="flex flex-col gap-8 py-16 my-16 bg-white lg:flex-row ">
           <div className="lg:w-2/5 lg:pt-8 lg:pl-8 2xl:w-1/3">
             <h1 className="sr-only">Been Coffee</h1>
@@ -57,20 +90,13 @@ export default function WherePage() {
           </div>
         </div>
 
-        <div className="w-full overflow-hidden lg:h-[400px] lg:ml-8 xl:mt-[-300px] lg:w-1/3 lg:-mt-96">
-          <StaticImage
-            className="object-cover w-full h-full where-image"
-            src="../images/where/outside.jpg"
-            alt="External shot of Been Coffee"
-          />
-        </div>
 
         <div className="relative w-full ml-auto lg:w-3/5 mt-8 lg:mt-[-150px] xl:mt-[-100px] xl:p-16 bg-seashell p-8 ">
           <BsChatQuote className="absolute top-0 right-0 -mt-8 text-4xl text-tuscany" />
           <p><span className="text-2xl text-tuscany">Absolutely amazing!</span> Fast and friendly service and good prices, especially for the quality. I had a chai latte and it was the best one I have ever had. My husband had a coffee and said it was really good, <span className="text-xl">clearly great quality</span>. Just stopped on our way home but wish we were more local to be able to visit again! <a href="https://www.google.com/search?q=been+coffee&rlz=1C1CHBF_en-GBGB838GB838&oq=been+coffee&aqs=chrome..69i57j46i512l2j0i10i512j0i512j69i60l2j69i61.1931j0j4&sourceid=chrome&ie=UTF-8#lrd=0x4879f76a544386ad:0xdd73c388e6606809,1,,," rel="noopener noreferrer" target="_blank" className="text-sm hover:text-tuscany-700 focus:text-tuscany-700 font-riverside text-tuscany">- Kelly Barnsley</a></p>
         </div>
 
-      </section>
+      </section> */}
     </>
   )
 }
