@@ -55,7 +55,7 @@ const IndexPage = () => {
         </AnimatePresence>
 
         <AnimatePresence>
-          <div className="absolute bottom-0 w-full p-4 mb-56 text-3xl text-right text-butterscotch lg:left-0 lg:top-1/2 lg:transform lg:-translate-y-1/2 lg:bottom-auto lg:text-left">
+          <div className="absolute bottom-0 w-full p-4 mb-[13.5rem] text-3xl text-right text-butterscotch lg:left-0 lg:top-1/2 lg:transform lg:-translate-y-1/2 lg:bottom-auto lg:text-left">
             <h1 className="sr-only">Been Coffee</h1>
             <h2 className="sr-only">
               Independent coffee shop between Derby & Burton, UK.
@@ -88,9 +88,17 @@ const IndexPage = () => {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 2.9, duration: 1, type: "intertia" }}
-              className="mt-4 font-riverside-outline text-navy lg:text-white lg:text-4xl"
+              className="mt-6 text-xl font-riverside-outline text-navy lg:text-white lg:text-4xl"
             >
               Independent & Family Run
+            </motion.p>
+            <motion.p
+              initial={{ x: 300, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: 3.2, duration: 1, type: "intertia" }}
+              className="text-lg font-riverside text-navy lg:text-butterscotch lg:text-2xl"
+            >
+              Vegan & Gluten Free Options
             </motion.p>
           </div>
         </AnimatePresence>
