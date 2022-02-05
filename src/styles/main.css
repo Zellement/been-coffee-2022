@@ -57,6 +57,14 @@ a {
   @apply duration-300;
 }
 
+.btn {
+  @apply px-6 py-4 border-b-2 border-current hover:bg-tuscany-700 hover:text-white hover:border-tuscany-700;
+}
+
+.btn--tuscany {
+  @apply inline-block text-tuscany;
+}
+
 /* --------------------------
 Headings
 -------------------------- */
@@ -83,15 +91,23 @@ Content
 -------------------------- */
 
 .content p {
-  @apply mb-6;
+  @apply mb-8;
 }
 
 .content h2 {
-  @apply text-xl lg:text-3xl;
+  @apply text-2xl lg:text-4xl;
 }
 
 .content h3 {
-  @apply text-xl lg:text-2xl;
+  @apply mt-16 text-2xl lg:text-3xl;
+}
+
+.content h4 {
+  @apply mt-16 text-xl lg:text-2xl;
+}
+
+.content a:not(.btn) {
+  @apply text-tuscany-500 hover:text-tuscany-700;
 }
 
 .homepage-image {
@@ -115,4 +131,9 @@ Content
   @screen lg {
     clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
   }
+}
+
+.polygon-clip-mask--bl {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
+
 }
