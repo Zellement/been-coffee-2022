@@ -86,7 +86,7 @@ export default class Contact extends React.Component {
               {this.validator.message("name", this.state.name, "required")}
             </label>
           </div>
-          <div>
+          <div className="col-span-1">
             <label className="relative flex w-full">
               <input
                 className="w-full bg-white p-4 text-navy"
@@ -102,7 +102,7 @@ export default class Contact extends React.Component {
               )}
             </label>
           </div>
-          <div className="md:col-span-2">
+          <div className="col-span-1 md:col-span-2">
             <label className="relative flex flex-1">
               <textarea
                 className="w-full bg-white p-4 text-navy h-60"
@@ -119,7 +119,7 @@ export default class Contact extends React.Component {
               </textarea>
             </label>
           </div>
-          <div className="flex col-span-2">
+          <div className="flex col-span-1 md:col-span-2">
             <button className="w-full p-4 bg-navy hover:bg-tuscany hover:text-navy transition duration-300 text-white" type="submit">
               Get in touch
             </button>
