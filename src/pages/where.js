@@ -18,7 +18,7 @@ import { AiFillGoogleCircle } from "react-icons/ai"
 export default function WherePage() {
   return (
     <>
-      <Seo title="Find Us" description="Been Coffee is at the Derby & Burton Services, off the A50 and A38 Toyota Island" />
+      <Seo title="Find Us" description="Find Been Coffee at the Derby & Burton Services, off the A50 and A38 Toyota Island, DE65 6DX" />
       <Nav />
       <section className="max-w-screen-md px-8 mx-auto mt-40">
         <div className="content">
@@ -53,7 +53,7 @@ export default function WherePage() {
               Derby, <br />
               DE65 6DX
             </p>
-            <OpeningHours className="mx-auto mt-4 text-xs lg:text-sm max-w-[300px]  xl:mt-16 lg:ml-0" />
+            <OpeningHours className="mx-auto mt-4 text-xs lg:text-sm max-w-[300px] lg:mt-16 lg:ml-0" />
           </div>
           <div className="relative w-[104%] ml-[-2%] mb-[-50px] lg:m-0 lg:mt-auto lg:w-3/5 2xl:w-2/3">
             <div className="absolute bottom-0 w-[30%] h-auto right-0 mr-[61%] mb-[17%] z-10">

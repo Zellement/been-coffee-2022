@@ -59,7 +59,7 @@ export default class Contact extends React.Component {
         className="form text-black"
         name="quick-contact"
         method="post"
-        action="/thank-you/"
+        action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
@@ -121,7 +121,7 @@ export default class Contact extends React.Component {
           </div>
           <div className="flex col-span-2">
             <button className="w-full p-4 bg-navy hover:bg-tuscany hover:text-navy transition duration-300 text-white" type="submit">
-              Send
+              Get in touch
             </button>
           </div>
         </div>
