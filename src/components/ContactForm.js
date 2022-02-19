@@ -1,6 +1,6 @@
 import React from "react"
 import SimpleReactValidator from "simple-react-validator"
-import { navigateTo } from "gatsby-link"
+import { navigate } from "gatsby-link"
 
 function encode(data) {
   return Object.keys(data)
@@ -44,7 +44,7 @@ export default class Contact extends React.Component {
           ...this.state,
         }),
       })
-        .then(() => navigateTo(form.getAttribute("action")))
+        .then(() => navigate(form.getAttribute("action")))
         .catch((error) => alert(error))
     } else {
       this.validator.showMessages()
