@@ -137,3 +137,14 @@ Content
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
 
 }
+
+.section--who {
+  @apply p-4 md:p-16 lg:p-24 xl:p-32 mx-auto mt-4 mb-8 max-w-screen-lg bg-seashell relative;
+}
+
+.title--who {
+  @apply text-center font-riverside-outline text-3xl lg:text-5xl py-8 lg:p-0;
+}
+.title--who span {
+  @apply block font-riverside text-tuscany-500 lg:inline;
+}
