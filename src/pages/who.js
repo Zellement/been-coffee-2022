@@ -198,9 +198,9 @@ export default function WhoPage() {
                     >
                       Wells Farm Dairy
                     </a>{" "}
-                    are based in Stafford, just a a short drive from our shop,
+                    are based in Stafford, just a short drive from our shop,
                     and have been consistently delivering our whole and skimmed
-                    milk, as well as supplying high-quality alternative milks
+                    milk, as well as supplying high-quality alternative milks and yoghurts
                     too.
                   </p>
                 </div>
