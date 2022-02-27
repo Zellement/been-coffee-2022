@@ -69,6 +69,9 @@ export default function WhoPage() {
                 <AnchorLink className="btn btn--tuscany" href="#team">
                   The Team
                 </AnchorLink>
+                <Link to="/careers/" className="btn btn--tuscany">
+                We're hiring!
+                </Link>
               </div>
             </div>
           </div>
@@ -275,6 +278,10 @@ export default function WhoPage() {
                 </p>
               </div>
             </div>
+            
+                <Link to="/careers/" className="btn btn--tuscany max-w-56 mx-auto">
+                We're hiring!
+                </Link>
           </div>
         </section>
       </div>
