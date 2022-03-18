@@ -64,7 +64,7 @@ export default function IndexPage() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 2, duration: 1, type: "intertia" }}
-              className="font-riverside text-navy lg:text-7xl"
+              className="font-riverside text-navy lg:text-7xl 2xl:text-9xl"
             >
               Amazing Coffee.
             </motion.p>
@@ -72,7 +72,7 @@ export default function IndexPage() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 2.3, duration: 1, type: "intertia" }}
-              className="text-white font-riverside lg:text-6xl"
+              className="text-white font-riverside lg:text-6xl 2xl:text-7xl"
             >
               Tea. Hot Chocolate.
             </motion.p>
@@ -80,7 +80,7 @@ export default function IndexPage() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 2.6, duration: 1, type: "intertia" }}
-              className="font-riverside lg:text-5xl"
+              className="font-riverside lg:text-5xl 2xl:text-6xl"
             >
               Cobs. Paninis. Bagels.
             </motion.p>
@@ -88,7 +88,7 @@ export default function IndexPage() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 2.9, duration: 1, type: "intertia" }}
-              className="text-xl font-riverside-outline text-navy lg:text-white lg:text-4xl"
+              className="text-xl font-riverside-outline text-navy lg:text-white lg:text-4xl 2xl:text-5xl"
             >
               Cakes. Cookies. Brownies.
             </motion.p>
@@ -96,7 +96,7 @@ export default function IndexPage() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 3.2, duration: 1, type: "intertia" }}
-              className="text-lg font-riverside text-navy lg:text-butterscotch lg:text-2xl"
+              className="text-lg font-riverside text-navy lg:text-butterscotch lg:text-2xl 2xl:text-4xl"
             >
               Vegan & Gluten Free Options
             </motion.p>
