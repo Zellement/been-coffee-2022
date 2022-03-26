@@ -1,19 +1,10 @@
 import React from "react"
 import Seo from "../components/Seo"
 import Nav from "../components/Nav"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 import OpeningHours from "../components/OpeningHours"
-
-import { StaticImage } from "gatsby-plugin-image"
-
-import { BsChatQuote, BsCloudHaze2Fill } from "react-icons/bs"
-import { motion } from "framer-motion"
-import { Link } from "gatsby"
 import ContactForm from "../components/ContactForm"
 
-import { BsFacebook } from "react-icons/bs"
-import { FaTripadvisor } from "react-icons/fa"
-import { AiFillGoogleCircle, AiFillInstagram } from "react-icons/ai"
+import Social from "../components/Social"
 
 export default function ContactPage() {
   return (
@@ -35,12 +26,7 @@ export default function ContactPage() {
             <ContactForm />
             <OpeningHours showTitle={true} className="mx-auto mt-16 text-xs lg:text-sm max-w-sm" />
             
-            <div className="mt-16 flex flex-row items-center gap-4 justify-center">
-              <a target="_blank" className="hover:text-tuscany-500 transition duration-300" rel="noopener noreferrer" href="https://www.instagram.com/beencoffeeuk"><span className="sr-only">Google</span><AiFillInstagram className="w-12 h-auto" /></a>
-              <a target="_blank" className="hover:text-tuscany-500 transition duration-300" rel="noopener noreferrer" href="https://www.facebook.com/beencoffeeuk/"><span className="sr-only">Facebook</span> <BsFacebook className="w-10 h-auto block" /></a>
-              <a target="_blank" className="hover:text-tuscany-500 transition duration-300" rel="noopener noreferrer" href="https://g.page/r/CQloYOaIw3PdEAE"><span className="sr-only">Google</span><AiFillGoogleCircle className="w-12 h-auto" /></a>
-              <a target="_blank" className="hover:text-tuscany-500 transition duration-300" rel="noopener noreferrer" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1234748-d23838579-Reviews-Been_Coffee-Willington_Derbyshire_England.html"><span className="sr-only">Tripdvisor</span><FaTripadvisor className="w-14 h-14" /></a>
-            </div>
+            <Social />
       </section>
    
     </>

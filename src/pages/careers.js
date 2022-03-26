@@ -7,6 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import { BsChatQuote, BsCloudHaze2Fill } from "react-icons/bs"
 import { motion } from "framer-motion"
+import Social from "../components/Social"
 import { Link } from "gatsby"
 
 export default function WhoPage() {
@@ -22,28 +23,11 @@ export default function WhoPage() {
           <h1 className="text-4xl text-center font-riverside text-tuscany lg:text-7xl">
            Careers
           </h1>
+          <p>No career opportunities at the moment. Please watch our social media for updates.</p>
+          <Social />
         </div>
       </section>
-      {/* Hero */}
-      {/* <section className="">
-        <div className="relative lg:flex lg:flex-row">
-          <StaticImage
-            className="object-cover w-full h-full g:items-center saz-martin-hero lg:w-3/4 xl:w-3/4"
-            src="../images/who/saz-martin-hero.jpg"
-            alt="Martin and Sarah, Directors of Been Coffee"
-          />
-          <span className="absolute bottom-0 left-0 px-3 py-2 mb-4 ml-4 text-xs font-bold bg-seashell sm:text-base lg:inset-auto lg:right-0 lg:top-1/2 lg:-ml-8 lg:w-4/12 lg:p-8 lg:text-xl xl:w-1/3 2xl:text-2xl">
-            Martin &amp; Sarah
-            <span className="block text-[0.9em] font-normal">
-              Co-Directors of Been Coffee
-            </span>
-            <span className="block text-[0.7em] font-normal opacity-70">
-              Brother-in-Law & Sister-in-Law
-            </span>
-          </span>
-        </div>
-      </section> */}
-      <div className="flex flex-col gap-8 mb-16">
+      {/* <div className="flex flex-col gap-8 mb-16">
         <section className="relative w-full max-w-screen-lg mx-auto mt-4 bg-seashell lg:-mt-8 ">
           <div className="p-4 lg:p-24">
             <div className="content">
@@ -52,18 +36,6 @@ export default function WhoPage() {
 
               <p className="max-w-screen-sm pt-8 mx-auto text-center">We are now in a fortunate enough position to hire our pivotal number three.
               </p>
-
-              {/* <div className="flex flex-row flex-wrap justify-center gap-4 pb-16 border-b border-tuscany-50 ">
-                <AnchorLink className="btn btn--tuscany" href="#environment">
-                  Role Details
-                </AnchorLink>
-                <AnchorLink className="btn btn--tuscany" href="#business">
-                  Po
-                </AnchorLink>
-                <AnchorLink className="btn btn--tuscany" href="#team">
-                  The Team
-                </AnchorLink>
-              </div> */}
             </div>
           </div>
         </section>
@@ -140,7 +112,7 @@ export default function WhoPage() {
           </div>
         </section>
 
-      </div>
+      </div> */}
     </>
   )
 }

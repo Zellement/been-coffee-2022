@@ -69,9 +69,9 @@ export default function WhoPage() {
                 <AnchorLink className="btn btn--tuscany" href="#team">
                   The Team
                 </AnchorLink>
-                <Link to="/careers/" className="btn btn--tuscany">
+                {/* <Link to="/careers/" className="btn btn--tuscany">
                 We're hiring!
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -242,7 +242,7 @@ export default function WhoPage() {
 
               <div className="my-auto content md:w-3/5">
                 <h3 className="my-2">Martin Witheford</h3>
-                <h5 className="mb-8">Co-Director & Founder</h5>
+                <h5 className="mb-8 text-tuscany-500">Co-Director & Founder</h5>
                 <p>
                   Martin has spent a considerable time as a manager at a major
                   UK coffee shop chain. He has years of experience managing a
@@ -266,7 +266,7 @@ export default function WhoPage() {
 
               <div className="my-auto content md:w-3/5">
                 <h3 className="my-2">Sarah Farrow</h3>
-                <h5 className="mb-8">Co-Director & Founder</h5>
+                <h5 className="mb-8 text-tuscany-500">Co-Director & Founder</h5>
                 <p>
                   Sarah has years of experience in customer satisfaction, having
                   previously worked for a local business as one of their key
@@ -279,9 +279,9 @@ export default function WhoPage() {
               </div>
             </div>
             
-                <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
+                {/* <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
                 We're hiring!
-                </Link>
+                </Link> */}
           </div>
         </section>
       </div>
