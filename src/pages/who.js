@@ -69,9 +69,9 @@ export default function WhoPage() {
                 <AnchorLink className="btn btn--tuscany" href="#team">
                   The Team
                 </AnchorLink>
-                {/* <Link to="/careers/" className="btn btn--tuscany">
+                <Link to="/careers/" className="btn btn--tuscany">
                 We're hiring!
-                </Link> */}
+                </Link>
               </div>
             </div>
           </div>
@@ -268,7 +268,7 @@ export default function WhoPage() {
                 <h3 className="my-2">Sarah Farrow</h3>
                 <h5 className="mb-8 text-tuscany-500">Co-Director & Founder</h5>
                 <p>
-                  Sarah has years of experience in customer satisfaction, having
+                  Sarah has years of experience in customer satisfaction and logistics, having
                   previously worked for a local business as one of their key
                   client relationship managers.
                 </p>
@@ -278,10 +278,28 @@ export default function WhoPage() {
                 </p>
               </div>
             </div>
+            <div className="flex flex-col md:flex-row md:gap-16">
+              <div className="m-auto max-w-[270px] md:m-0 md:w-2/5 md:max-w-none">
+                <StaticImage
+                  className="object-cover w-full h-full my-auto"
+                  src="../images/who/cal.jpg"
+                  alt="Martin Witheford of Been Coffee"
+                />
+              </div>
+
+              <div className="my-auto content md:w-3/5">
+                <h3 className="my-2">Cal Allwright</h3>
+                <h5 className="mb-8 text-tuscany-500">Barista</h5>
+                <p>
+                  Cal is a local resident that joined Been Coffee in April 2022.
+                </p>
+                <p>They have joined us as our number three, and have taken to the role fantastically. We're super happy to have them onboard the small Been team!</p>
+              </div>
+            </div>
             
-                {/* <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
+                <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
                 We're hiring!
-                </Link> */}
+                </Link>
           </div>
         </section>
       </div>

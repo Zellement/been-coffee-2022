@@ -23,25 +23,27 @@ export default function WhoPage() {
           <h1 className="text-4xl text-center font-riverside text-tuscany lg:text-7xl">
            Careers
           </h1>
-          <p>No career opportunities at the moment. Please watch our social media for updates.</p>
-          <Social />
+          {/* <p>No career opportunities at the moment. Please watch our social media for updates.</p> */}
+          {/* <Social /> */}
         </div>
       </section>
-      {/* <div className="flex flex-col gap-8 mb-16">
+      <div className="flex flex-col gap-8 mb-16">
         <section className="relative w-full max-w-screen-lg mx-auto mt-4 bg-seashell lg:-mt-8 ">
           <div className="p-4 lg:p-24">
-            <div className="content">
-              <p className="mx-auto max-w-screen-sm  pt-8 text-center text-[1.2em]">
-               Been Coffee opened on the 13th December, and since then Martin & Sarah have been working hard to make it a success.</p>
+            <div className="content text-center flex flex-col gap-4 max-w-screen-sm mx-auto">
+              <p className=" text-[1.2em]">
+               Been Coffee opened on the 13th December, and since then Martin &amp; Sarah have been working hard to make it a success.</p>
 
-              <p className="max-w-screen-sm pt-8 mx-auto text-center">We are now in a fortunate enough position to hire our pivotal number three.
+               <p className="">Cal joined us in April, and has helped us enormously.</p>
+
+              <p className="">We are now in a fortunate enough position to hire our number four.
               </p>
             </div>
           </div>
         </section>
 
         <section>
-        <div className="relative grid max-w-screen-xl mx-auto grid-cols-1 mt-4 sm:grid-cols-3 gap-16 px-4 md:px-0">
+        <div className="relative grid max-w-screen-xl grid-cols-1 gap-16 px-4 mx-auto mt-4 sm:grid-cols-3 md:px-0">
 
         
               <div className="relative">
@@ -50,7 +52,7 @@ export default function WhoPage() {
                   src="../images/who/martin.jpg"
                   alt="Martin Witheford of Been Coffee"
                 />
-                <h3 className="absolute bottom-0 left-0 p-2 bg-tuscany text-white">Martin Witheford</h3>
+                <h3 className="absolute bottom-0 left-0 p-2 text-white bg-tuscany">Martin Witheford (Director)</h3>
               </div>
         
               <div className="relative">
@@ -59,16 +61,17 @@ export default function WhoPage() {
                   src="../images/who/sarah.jpg"
                   alt="Sarah Farrow of Been Coffee"
                 />
-                <h3 className="absolute bottom-0 left-0 p-2 bg-tuscany text-white">Sarah Farrow</h3>
+                <h3 className="absolute bottom-0 left-0 p-2 text-white bg-tuscany">Sarah Farrow (Director)</h3>
               </div>
         
               <div className="relative">
-                <div className="w-full h-full border-2 border-tuscany flex min-h-[320px]">
-                  <span className="text-8xl m-auto">?</span>
-                </div>
-                <h3 className="absolute bottom-0 left-0 p-2 bg-tuscany text-white">You here?</h3>
+                <StaticImage
+                  className="object-cover w-full h-full my-auto"
+                  src="../images/who/cal.jpg"
+                  alt="Cal Allwright of Been Coffee"
+                />
+                <h3 className="absolute bottom-0 left-0 p-2 text-white bg-tuscany">Cal Allwright (Barista)</h3>
               </div>
-
         </div>
 
         </section>
@@ -80,19 +83,20 @@ export default function WhoPage() {
             </h2>
           </div>
           <div className="content">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
               <div className="">
 
-                <p>We are looking for our pivotal number three to join our close team. The number three role will be an important role to help Been Coffee become more successful, so we really need someone who wants to help the business grow.</p>
+                <p>We are looking for our number four to join our close team.</p>
                 <p>If you are looking to join a small, independent business and really want to help the company succeed, this could be the role for you.</p>
+                <p>All training will be delivered on-the-job.</p>
 
               </div>
 
               <ul className="">
-                <li>- Up to 12-16 hours per week</li>
-                <li>- Hours expected to increase over time</li>
+                <li>- Starting at 12-16 hours per week, but likely to increase</li>
+                <li>- Must be able to work some morning shifts (from around 7am or 8am) during the week</li>
+                <li>- Must be able to work some Saturdays and most Sundays</li>
                 <li>- Ability to travel to Been Coffee</li>
-                <li>- Ability to work most days of the week, including occassional weekends</li>
                 <li>- Salary dependent on experience</li>
               </ul>
             </div>
@@ -112,7 +116,7 @@ export default function WhoPage() {
           </div>
         </section>
 
-      </div> */}
+      </div>
     </>
   )
 }
