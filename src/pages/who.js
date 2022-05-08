@@ -13,7 +13,7 @@ export default function WhoPage() {
   return (
     <>
       <Seo
-        title="Who are we?"
+        title="Who are we? | Been Coffee"
         description="Been Coffee is a small, independent family-run coffee shop near Derby and Willington, UK"
       />
       <Nav />
@@ -70,7 +70,7 @@ export default function WhoPage() {
                   The Team
                 </AnchorLink>
                 <Link to="/careers/" className="btn btn--tuscany">
-                We're hiring!
+                  We're hiring!
                 </Link>
               </div>
             </div>
@@ -168,28 +168,29 @@ export default function WhoPage() {
                 </div>
               </div>
               <div className="flex flex-col lg:flex-row lg:gap-16">
-                  <div className="my-auto lg:w-3/5">
-                    <h4 className="mt-0">Owen Taylor</h4>
-                    <p>
-                      <a
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://www.owentaylor.co.uk/"
-                      >
-                        Owen Taylor
-                      </a>{" "} are a local family butchers who
-                      supply much of our meat, including their award winning
-                      sausages, and we're really proud to be working with them.
-                    </p>
-                  </div>
-                  <div className="order-first my-auto lg:order-last lg:w-2/5">
-                    <StaticImage
-                      className="my-auto"
-                      src="../images/who/owen-taylor.jpg"
-                      alt="Owen Taylor"
-                    />
-                  </div>
+                <div className="my-auto lg:w-3/5">
+                  <h4 className="mt-0">Owen Taylor</h4>
+                  <p>
+                    <a
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://www.owentaylor.co.uk/"
+                    >
+                      Owen Taylor
+                    </a>{" "}
+                    are a local family butchers who supply much of our meat,
+                    including their award winning sausages, and we're really
+                    proud to be working with them.
+                  </p>
                 </div>
+                <div className="order-first my-auto lg:order-last lg:w-2/5">
+                  <StaticImage
+                    className="my-auto"
+                    src="../images/who/owen-taylor.jpg"
+                    alt="Owen Taylor"
+                  />
+                </div>
+              </div>
               <div className="flex flex-col lg:flex-row lg:gap-16">
                 <div className="lg:w-1/2">
                   <h4 className="mt-0">Wells Farm Dairy</h4>
@@ -201,10 +202,10 @@ export default function WhoPage() {
                     >
                       Wells Farm Dairy
                     </a>{" "}
-                    are based in Stafford, just a short drive from our shop,
-                    and have been consistently delivering our whole and skimmed
-                    milk, as well as supplying high-quality alternative milks and yoghurts
-                    too.
+                    are based in Stafford, just a short drive from our shop, and
+                    have been consistently delivering our whole and skimmed
+                    milk, as well as supplying high-quality alternative milks
+                    and yoghurts too.
                   </p>
                 </div>
 
@@ -256,7 +257,7 @@ export default function WhoPage() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row md:gap-16">
-              <div className="md:w-2/5 max-w-[270px] m-auto md:m-0 md:max-w-none md:order-last">
+              <div className="m-auto max-w-[270px] md:order-last md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
                   className="object-cover w-full h-full my-auto"
                   src="../images/who/sarah.jpg"
@@ -268,9 +269,9 @@ export default function WhoPage() {
                 <h3 className="my-2">Sarah Farrow</h3>
                 <h5 className="mb-8 text-tuscany-500">Co-Director & Founder</h5>
                 <p>
-                  Sarah has years of experience in customer satisfaction and logistics, having
-                  previously worked for a local business as one of their key
-                  client relationship managers.
+                  Sarah has years of experience in customer satisfaction and
+                  logistics, having previously worked for a local business as
+                  one of their key client relationship managers.
                 </p>
                 <p>
                   Sarah joined Martin's venture and together they have formed a
@@ -293,13 +294,17 @@ export default function WhoPage() {
                 <p>
                   Cal is a local resident that joined Been Coffee in April 2022.
                 </p>
-                <p>They have joined us as our number three, and have taken to the role fantastically. We're super happy to have them onboard the small Been team!</p>
+                <p>
+                  They have joined us as our number three, and have taken to the
+                  role fantastically. We're super happy to have them onboard the
+                  small Been team!
+                </p>
               </div>
             </div>
-            
-                <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
-                We're hiring!
-                </Link>
+
+            <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
+              We're hiring!
+            </Link>
           </div>
         </section>
       </div>

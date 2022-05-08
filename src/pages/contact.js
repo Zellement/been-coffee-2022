@@ -10,25 +10,31 @@ export default function ContactPage() {
   return (
     <>
       <Seo
-        title="Contact Been Coffee"
+        title="Contact Been Coffee | Been Coffee"
         description="Get in touch with us"
       />
       <Nav />
-      <section className="mx-auto mt-40 max-w-screen-md px-8">
+      <section className="max-w-screen-md px-8 mx-auto mt-40">
         <div className="content">
-          <h1 className="text-center font-riverside text-4xl text-tuscany lg:text-7xl">
+          <h1 className="text-4xl text-center font-riverside text-tuscany lg:text-7xl">
             Contact
           </h1>
         </div>
       </section>
-      <section className="my-24 max-w-screen-md mx-auto md:p-16 bg-seashell p-8 lg:p-24 xl:p-32">
-          <p className="mb-8">If you would like to get in touch to send us some direct feedback, or if you'd be interested in becoming a supply partner, please reach out to us using the form below.</p>
-            <ContactForm />
-            <OpeningHours showTitle={true} className="mx-auto mt-16 text-xs lg:text-sm max-w-sm" />
-            
-            <Social />
+      <section className="max-w-screen-md p-8 mx-auto my-24 bg-seashell md:p-16 lg:p-24 xl:p-32">
+        <p className="mb-8">
+          If you would like to get in touch to send us some direct feedback, or
+          if you'd be interested in becoming a supply partner, please reach out
+          to us using the form below.
+        </p>
+        <ContactForm />
+        <OpeningHours
+          showTitle={true}
+          className="max-w-sm mx-auto mt-16 text-xs lg:text-sm"
+        />
+
+        <Social />
       </section>
-   
     </>
   )
 }
