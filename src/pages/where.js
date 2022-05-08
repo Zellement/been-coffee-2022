@@ -8,12 +8,8 @@ import imgMap from "../images/map.svg"
 import imgArrowBee from "../images/arrow-bee.svg"
 
 import { BsChatQuote } from "react-icons/bs"
-import { motion } from "framer-motion"
 import OpeningHours from "../components/OpeningHours"
-
-import { BsFacebook } from "react-icons/bs"
-import { FaTripadvisor } from "react-icons/fa"
-import { AiFillGoogleCircle } from "react-icons/ai"
+import Reviews from "../components/Reviews"
 
 export default function WherePage() {
   return (
@@ -65,6 +61,8 @@ export default function WherePage() {
             <img src={imgMap} />
           </div>
         </div>
+
+        <Reviews />
 
         <div className="flex flex-col gap-8 lg:flex-row">
           <div className="w-full overflow-hidden lg:ml-8 lg:h-[400px] lg:w-1/3">
@@ -118,36 +116,6 @@ export default function WherePage() {
                   - Leanne Ford
                 </a>
               </p>
-            </div>
-            <div className="flex flex-row items-center justify-center gap-4">
-              <span>See more reviews:</span>
-              <a
-                target="_blank"
-                className="transition duration-300 hover:text-tuscany-500"
-                rel="noopener noreferrer"
-                href="https://www.google.com/search?q=been+coffee&rlz=1C1CHBF_en-GBGB838GB838&oq=been+coffee&aqs=chrome..69i57j46i512l2j0i10i512j0i512j69i60l2j69i61.1931j0j4&sourceid=chrome&ie=UTF-8#lrd=0x4879f76a544386ad:0xdd73c388e6606809,1,,,"
-              >
-                <span className="sr-only">Google</span>
-                <AiFillGoogleCircle className="w-12 h-auto" />
-              </a>
-              <a
-                target="_blank"
-                className="transition duration-300 hover:text-tuscany-500"
-                rel="noopener noreferrer"
-                href="https://www.facebook.com/beencoffeeuk/reviews/"
-              >
-                <span className="sr-only">Facebook</span>{" "}
-                <BsFacebook className="block w-10 h-auto" />
-              </a>
-              <a
-                target="_blank"
-                className="transition duration-300 hover:text-tuscany-500"
-                rel="noopener noreferrer"
-                href="https://www.tripadvisor.co.uk/Restaurant_Review-g1234748-d23838579-Reviews-Been_Coffee-Willington_Derbyshire_England.html#REVIEWS"
-              >
-                <span className="sr-only">Tripdvisor</span>
-                <FaTripadvisor className="h-14 w-14" />
-              </a>
             </div>
           </div>
         </div>

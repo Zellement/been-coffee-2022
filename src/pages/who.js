@@ -5,8 +5,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import { StaticImage } from "gatsby-plugin-image"
 
-import { BsChatQuote, BsCloudHaze2Fill } from "react-icons/bs"
-import { motion } from "framer-motion"
 import { Link } from "gatsby"
 
 export default function WhoPage() {

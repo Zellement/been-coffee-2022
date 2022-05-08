@@ -1,14 +1,8 @@
 import React from "react"
 import Seo from "../components/Seo"
 import Nav from "../components/Nav"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import { StaticImage } from "gatsby-plugin-image"
-
-import { BsChatQuote, BsCloudHaze2Fill } from "react-icons/bs"
-import { motion } from "framer-motion"
-import Social from "../components/Social"
-import { Link } from "gatsby"
 
 export default function WhoPage() {
   return (

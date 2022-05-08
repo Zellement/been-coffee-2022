@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Been Coffee`,
@@ -33,11 +35,18 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-instagram-all`,
+      resolve: `gatsby-source-google-reviews-en`,
       options: {
-        access_token: process.env.INSTAGRAM_ACCESS,
+        placeId: `ChIJrYZDVGr3eUgRCWhg5ojDc90`,
+        apiKey: process.env.GOOGLE_PLACES_API,
       },
     },
+    // {
+    //   resolve: `gatsby-source-instagram-all`,
+    //   options: {
+    //     access_token: process.env.INSTAGRAM_ACCESS,
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {

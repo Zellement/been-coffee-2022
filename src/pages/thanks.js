@@ -1,14 +1,6 @@
 import React from "react"
 import Seo from "../components/Seo"
 import Nav from "../components/Nav"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-
-import { StaticImage } from "gatsby-plugin-image"
-
-import { BsChatQuote, BsCloudHaze2Fill } from "react-icons/bs"
-import { motion } from "framer-motion"
-import { Link } from "gatsby"
-import ContactForm from "../components/ContactForm"
 
 import { BsFacebook } from "react-icons/bs"
 import { FaTripadvisor } from "react-icons/fa"
