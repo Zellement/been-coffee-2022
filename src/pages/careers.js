@@ -43,7 +43,7 @@ export default function WhoPage() {
         </section>
 
         <section>
-          <div className="relative grid max-w-screen-xl grid-cols-1 gap-16 px-4 mx-auto mt-4 sm:grid-cols-3 md:px-0">
+          <div className="relative grid max-w-screen-xl grid-cols-1 gap-16 px-4 mx-auto mt-4 sm:grid-cols-2 md:px-0 lg:grid-cols-4">
             <div className="relative">
               <StaticImage
                 className="object-cover w-full h-full my-auto"
@@ -74,6 +74,17 @@ export default function WhoPage() {
               />
               <h3 className="absolute bottom-0 left-0 p-2 text-white bg-tuscany">
                 Cal Allwright (Barista)
+              </h3>
+            </div>
+
+            <div className="relative">
+              <StaticImage
+                className="object-cover w-full h-full my-auto"
+                src="../images/who/rafe.jpg"
+                alt="Rafe Alton of Been Coffee"
+              />
+              <h3 className="absolute bottom-0 left-0 p-2 text-white bg-tuscany">
+                Rafe Alton (Barista)
               </h3>
             </div>
           </div>

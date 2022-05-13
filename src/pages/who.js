@@ -277,29 +277,55 @@ export default function WhoPage() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row md:gap-16">
-              <div className="m-auto max-w-[270px] md:m-0 md:w-2/5 md:max-w-none">
+          </div>
+          <div className="grid grid-cols-1 gap-8 my-16 md:grid-cols-3">
+            <div className="flex flex-col space-y-6">
+              <div className="">
                 <StaticImage
-                  className="object-cover w-full h-full my-auto"
+                  className="object-cover w-full h-full"
                   src="../images/who/cal.jpg"
-                  alt="Martin Witheford of Been Coffee"
+                  alt="Cal Allwright of Been Coffee"
                 />
               </div>
 
-              <div className="my-auto content md:w-3/5">
-                <h3 className="my-2">Cal Allwright</h3>
-                <h5 className="mb-8 text-tuscany-500">Barista</h5>
-                <p>
-                  Cal is a local resident that joined Been Coffee in April 2022.
-                </p>
-                <p>
-                  They have joined us as our number three, and have taken to the
-                  role fantastically. We're super happy to have them onboard the
-                  small Been team!
-                </p>
+              <div className="flex flex-col space-y-2">
+                <h3 className="m-0 text-2xl">Cal Allwright</h3>
+                <h5 className="m-0 text-tuscany-500">Barista</h5>
               </div>
             </div>
+            <div className="flex flex-col space-y-6">
+              <div className="">
+                <StaticImage
+                  className="object-cover w-full h-full"
+                  src="../images/who/rafe.jpg"
+                  alt="Rafe Alton of Been Coffee"
+                />
+              </div>
 
+              <div className="flex flex-col space-y-2">
+                <h3 className="m-0 text-2xl">Rafe Alton</h3>
+                <h5 className="m-0 text-tuscany-500">Barista</h5>
+              </div>
+            </div>
+            <div className="flex flex-col space-y-6">
+              <div className="relative">
+                <StaticImage
+                  className="object-cover w-full h-full"
+                  src="../images/who/rafe.jpg"
+                  alt="Jess Holmes of Been Coffee"
+                />
+                <div className="absolute inset-0 flex w-full h-full text-white bg-navy-500 text-2xs">
+                  <span className="m-auto">Picture coming soon</span>
+                </div>
+              </div>
+
+              <div className="flex flex-col space-y-2">
+                <h3 className="m-0 text-2xl">Jess Holmes</h3>
+                <h5 className="m-0 text-tuscany-500">Barista</h5>
+              </div>
+            </div>
+          </div>
+          <div className="flex">
             <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
               We're hiring!
             </Link>
