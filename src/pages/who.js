@@ -311,12 +311,12 @@ export default function WhoPage() {
               <div className="relative">
                 <StaticImage
                   className="object-cover w-full h-full"
-                  src="../images/who/rafe.jpg"
+                  src="../images/who/jess.jpeg"
                   alt="Jess Holmes of Been Coffee"
                 />
-                <div className="absolute inset-0 flex w-full h-full text-white bg-navy-500 text-2xs">
+                {/* <div className="absolute inset-0 flex w-full h-full text-white bg-navy-500 text-2xs">
                   <span className="m-auto">Picture coming soon</span>
-                </div>
+                </div> */}
               </div>
 
               <div className="flex flex-col space-y-2">
