@@ -68,7 +68,7 @@ export default function WhoPage() {
                   The Team
                 </AnchorLink>
                 <Link to="/careers/" className="btn btn--tuscany">
-                  We're hiring!
+                  Careers
                 </Link>
               </div>
             </div>
@@ -233,14 +233,14 @@ export default function WhoPage() {
             <div className="flex flex-col md:flex-row md:gap-16">
               <div className="m-auto max-w-[270px] md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
-                  className="object-cover w-full h-full my-auto"
+                  className="object-cover w-full h-full my-auto clip-hexagon"
                   src="../images/who/martin.jpg"
-                  alt="Martin Witheford of Been Coffee"
+                  alt="Martin of Been Coffee"
                 />
               </div>
 
               <div className="my-auto content md:w-3/5">
-                <h3 className="my-2">Martin Witheford</h3>
+                <h3 className="my-2">Martin</h3>
                 <h5 className="mb-8 text-tuscany-500">Co-Director & Founder</h5>
                 <p>
                   Martin has spent a considerable time as a manager at a major
@@ -257,14 +257,14 @@ export default function WhoPage() {
             <div className="flex flex-col md:flex-row md:gap-16">
               <div className="m-auto max-w-[270px] md:order-last md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
-                  className="object-cover w-full h-full my-auto"
+                  className="object-cover w-full h-full my-auto clip-hexagon"
                   src="../images/who/sarah.jpg"
-                  alt="Sarah Farrow of Been Coffee"
+                  alt="Sarah of Been Coffee"
                 />
               </div>
 
               <div className="my-auto content md:w-3/5">
-                <h3 className="my-2">Sarah Farrow</h3>
+                <h3 className="my-2">Sarah</h3>
                 <h5 className="mb-8 text-tuscany-500">Co-Director & Founder</h5>
                 <p>
                   Sarah has years of experience in customer satisfaction and
@@ -277,57 +277,75 @@ export default function WhoPage() {
                 </p>
               </div>
             </div>
+            <div className="flex flex-col md:flex-row md:gap-16">
+              <div className="m-auto max-w-[270px] md:m-0 md:w-2/5 md:max-w-none">
+                <StaticImage
+                  className="object-cover w-full h-full my-auto clip-hexagon"
+                  src="../images/who/michaela.jpeg"
+                  alt="Michaela of Been Coffee"
+                />
+              </div>
+
+              <div className="my-auto content md:w-3/5">
+                <h3 className="my-2">Michaela</h3>
+                <h5 className="mb-8 text-tuscany-500">Assistant Manager</h5>
+                <p>
+                  Michaela joins Been Coffee coming from a local hospitality brand, and brings with her a wealth of managerial experience in the sector.
+                </p>
+                <p>A resident of the local area, Michaela's drive and passion to offer exceptional service to all Been Coffee's customers is exceptional.</p>
+              </div>
+            </div>
           </div>
           <div className="grid grid-cols-1 gap-8 my-16 md:grid-cols-3">
             <div className="flex flex-col space-y-6">
               <div className="">
                 <StaticImage
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full clip-hexagon"
                   src="../images/who/cal.jpg"
-                  alt="Cal Allwright of Been Coffee"
+                  alt="Cal of Been Coffee"
                 />
               </div>
 
-              <div className="flex flex-col space-y-2">
-                <h3 className="m-0 text-2xl">Cal Allwright</h3>
+              <div className="flex flex-col space-y-2 text-center">
+                <h3 className="m-0 text-2xl">Cal</h3>
                 <h5 className="m-0 text-tuscany-500">Barista</h5>
               </div>
             </div>
             <div className="flex flex-col space-y-6">
               <div className="">
                 <StaticImage
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full clip-hexagon"
                   src="../images/who/rafe.jpg"
-                  alt="Rafe Alton of Been Coffee"
+                  alt="Rafe of Been Coffee"
                 />
               </div>
 
-              <div className="flex flex-col space-y-2">
-                <h3 className="m-0 text-2xl">Rafe Alton</h3>
+              <div className="flex flex-col space-y-2 text-center">
+                <h3 className="m-0 text-2xl">Rafe</h3>
                 <h5 className="m-0 text-tuscany-500">Barista</h5>
               </div>
             </div>
             <div className="flex flex-col space-y-6">
               <div className="relative">
                 <StaticImage
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full clip-hexagon"
                   src="../images/who/jess.jpeg"
-                  alt="Jess Holmes of Been Coffee"
+                  alt="Jess of Been Coffee"
                 />
                 {/* <div className="absolute inset-0 flex w-full h-full text-white bg-navy-500 text-2xs">
                   <span className="m-auto">Picture coming soon</span>
                 </div> */}
               </div>
 
-              <div className="flex flex-col space-y-2">
-                <h3 className="m-0 text-2xl">Jess Holmes</h3>
+              <div className="flex flex-col space-y-2 text-center">
+                <h3 className="m-0 text-2xl">Jess</h3>
                 <h5 className="m-0 text-tuscany-500">Barista</h5>
               </div>
             </div>
           </div>
           <div className="flex">
             <Link to="/careers/" className="mx-auto btn btn--tuscany max-w-56">
-              We're hiring!
+              Careers
             </Link>
           </div>
         </section>

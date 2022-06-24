@@ -27,11 +27,6 @@ export default function WhoPage() {
           <div className="p-4 lg:p-24">
             <div className="flex flex-col max-w-screen-sm gap-4 mx-auto text-center content">
               <p className=" text-[1.2em]">
-                Been Coffee opened on the 13th December, and since then Martin
-                &amp; Sarah have been working hard to make it a success.
-              </p>
-
-              <p className="">
                 Although we have no vacancies immediately, we are always looking
                 for friendly staff to help cover shifts.
               </p>
@@ -47,58 +42,69 @@ export default function WhoPage() {
         </section>
 
         <section>
-          <div className="relative grid max-w-screen-xl grid-cols-1 gap-16 px-4 mx-auto mt-4 sm:grid-cols-2 md:px-0 lg:grid-cols-5">
+          <div className="relative grid max-w-screen-xl grid-cols-1 gap-16 px-4 mx-auto mt-4 sm:grid-cols-2 md:px-0 lg:grid-cols-6">
             <div className="relative">
               <StaticImage
-                className="object-cover w-full h-full my-auto"
+                className="object-cover w-full h-full my-auto clip-hexagon"
                 src="../images/who/martin.jpg"
-                alt="Martin Witheford of Been Coffee"
+                alt="Martin of Been Coffee"
               />
-              <h3 className="absolute bottom-0 left-0 p-2 m-0 text-white bg-tuscany">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
                 Martin
               </h3>
             </div>
 
-            <div className="relative">
-              <StaticImage
-                className="object-cover w-full h-full my-auto"
-                src="../images/who/sarah.jpg"
-                alt="Sarah Farrow of Been Coffee"
-              />
-              <h3 className="absolute bottom-0 left-0 p-2 m-0 text-white bg-tuscany">
-                Sarah
-              </h3>
-            </div>
+<div className="relative">
+  <StaticImage
+    className="object-cover w-full h-full my-auto clip-hexagon"
+    src="../images/who/sarah.jpg"
+    alt="Sarah of Been Coffee"
+  />
+  <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
+    Sarah
+  </h3>
+</div>
+
+<div className="relative">
+  <StaticImage
+    className="object-cover w-full h-full my-auto clip-hexagon"
+    src="../images/who/michaela.jpeg"
+    alt="Michaela of Been Coffee"
+  />
+  <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
+    Michaela
+  </h3>
+</div>
 
             <div className="relative">
               <StaticImage
-                className="object-cover w-full h-full my-auto"
+                className="object-cover w-full h-full my-auto clip-hexagon"
                 src="../images/who/cal.jpg"
-                alt="Cal Allwright of Been Coffee"
+                alt="Cal of Been Coffee"
               />
-              <h3 className="absolute bottom-0 left-0 p-2 m-0 text-white bg-tuscany">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
                 Cal
               </h3>
             </div>
 
             <div className="relative">
               <StaticImage
-                className="object-cover w-full h-full my-auto"
+                className="object-cover w-full h-full my-auto clip-hexagon"
                 src="../images/who/rafe.jpg"
-                alt="Rafe Alton of Been Coffee"
+                alt="Rafe of Been Coffee"
               />
-              <h3 className="absolute bottom-0 left-0 p-2 m-0 text-white bg-tuscany">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
                 Rafe
               </h3>
             </div>
 
             <div className="relative">
               <StaticImage
-                className="object-cover w-full h-full my-auto"
+                className="object-cover w-full h-full my-auto clip-hexagon"
                 src="../images/who/jess.jpeg"
-                alt="Rafe Alton of Been Coffee"
+                alt="Jess of Been Coffee"
               />
-              <h3 className="absolute bottom-0 left-0 p-2 m-0 text-white bg-tuscany">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
                 Jess
               </h3>
             </div>
@@ -153,14 +159,19 @@ export default function WhoPage() {
             </h2>
           </div>
           <div className="content">
-            <p className=" border-l  border-tuscany-500 pl-8 text-[1.2em]">
+          <p className=" border-l  border-tuscany-500 pl-8 text-[1.2em]">
+             We'd love to receive speculative  CVs, so if you're interested in working with us, email <a href="mailto:careers@been.coffee">careers@been.coffee</a> with
+              your CV and covering letter, or contact us via one of our social
+              media platforms.
+            </p>
+            {/* <p className=" border-l  border-tuscany-500 pl-8 text-[1.2em]">
               The best way we can communicate what we want from someone is a
               face-to-face discussion in our shop. To book in a quick informal
               discussion, please email{" "}
               <a href="mailto:careers@been.coffee">careers@been.coffee</a> with
               your CV and covering letter, or contact us via one of our social
               media platforms.
-            </p>
+            </p> */}
           </div>
         </section>
       </div>
