@@ -27,16 +27,17 @@ export default function WhoPage() {
           <div className="p-4 lg:p-24">
             <div className="flex flex-col max-w-screen-sm gap-4 mx-auto text-center content">
               <p className=" text-[1.2em]">
-                Although we have no vacancies immediately, we are always looking
-                for friendly staff to help cover shifts.
+                Check out our latest vacancy on Indeed.
               </p>
 
-              <AnchorLink
+              <a className="self-center btn btn--tuscany" href="https://uk.indeed.com/viewjob?t=barista&jk=3551a4db6c4e39bd&_ga=2.97266326.8629226.1657901644-1484270990.1653321818" target="_blank" rel="noopener noreferrer">Go to Indeed</a>
+
+              {/* <AnchorLink
                 href="#the-role"
                 className="self-center btn btn--tuscany"
               >
                 What we're looking for
-              </AnchorLink>
+              </AnchorLink> */}
             </div>
           </div>
         </section>
