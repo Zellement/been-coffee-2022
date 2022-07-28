@@ -3,8 +3,10 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 function Seo({ description, title }) {
   return (
-    <Helmet title={title}>
+    <Helmet>
       <html lang="en" />
+      <title>{title}</title>
+      <meta charSet="utf-8" />
       <meta name="description" content={description} />
       <meta name="image" content={`../images/index/desktop.jpg`} />
       <meta name="been-coffee" content="Been Coffee" />
