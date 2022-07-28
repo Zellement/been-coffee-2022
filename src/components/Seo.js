@@ -9,7 +9,6 @@ function Seo({ description, title }) {
       <meta charSet="utf-8" />
       <meta name="description" content={description} />
       <meta name="image" content={`../images/index/desktop.jpg`} />
-      <meta name="been-coffee" content="Been Coffee" />
     </Helmet>
   )
 }
