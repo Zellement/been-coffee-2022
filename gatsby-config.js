@@ -41,12 +41,7 @@ module.exports = {
         apiKey: process.env.GOOGLE_PLACES_API,
       },
     },
-    // {
-    //   resolve: `gatsby-source-instagram-all`,
-    //   options: {
-    //     access_token: process.env.INSTAGRAM_ACCESS,
-    //   },
-    // },
+
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
