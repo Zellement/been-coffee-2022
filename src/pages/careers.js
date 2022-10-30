@@ -18,31 +18,33 @@ export default function WhoPage() {
           <h1 className="text-4xl text-center font-riverside text-tuscany lg:text-7xl">
             Careers
           </h1>
-          {/* <p>No career opportunities at the moment. Please watch our social media for updates.</p> */}
-          {/* <Social /> */}
+          <p>
+            No career opportunities at the moment. Please watch our social media
+            for updates.
+          </p>
         </div>
       </section>
       <div className="flex flex-col gap-8 mb-16">
-        <section className="relative w-full max-w-screen-lg mx-auto mt-4 bg-seashell lg:-mt-8 ">
+        {/* <section className="relative w-full max-w-screen-lg mx-auto mt-4 bg-seashell lg:-mt-8 ">
           <div className="p-4 lg:p-24">
             <div className="flex flex-col max-w-screen-sm gap-4 mx-auto text-center content">
               <p className=" text-[1.2em]">
                 Check out our latest vacancy on Indeed.
               </p>
 
-              <a className="self-center btn btn--tuscany" href="https://uk.indeed.com/viewjob?t=barista&jk=3551a4db6c4e39bd&_ga=2.97266326.8629226.1657901644-1484270990.1653321818" target="_blank" rel="noopener noreferrer">Go to Indeed</a>
-
-              {/* <AnchorLink
-                href="#the-role"
+              <a
                 className="self-center btn btn--tuscany"
+                href="https://uk.indeed.com/viewjob?t=barista&jk=3551a4db6c4e39bd&_ga=2.97266326.8629226.1657901644-1484270990.1653321818"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                What we're looking for
-              </AnchorLink> */}
+                Go to Indeed
+              </a>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section>
+        {/* <section>
           <div className="relative grid max-w-screen-xl grid-cols-1 gap-16 px-4 mx-auto mt-4 sm:grid-cols-2 md:px-0 lg:grid-cols-6">
             <div className="relative">
               <StaticImage
@@ -50,32 +52,32 @@ export default function WhoPage() {
                 src="../images/who/martin.jpg"
                 alt="Martin of Been Coffee"
               />
-              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 left-1/2 bg-tuscany">
                 Martin
               </h3>
             </div>
 
-<div className="relative">
-  <StaticImage
-    className="object-cover w-full h-full my-auto clip-hexagon"
-    src="../images/who/sarah.jpg"
-    alt="Sarah of Been Coffee"
-  />
-  <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
-    Sarah
-  </h3>
-</div>
+            <div className="relative">
+              <StaticImage
+                className="object-cover w-full h-full my-auto clip-hexagon"
+                src="../images/who/sarah.jpg"
+                alt="Sarah of Been Coffee"
+              />
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 left-1/2 bg-tuscany">
+                Sarah
+              </h3>
+            </div>
 
-<div className="relative">
-  <StaticImage
-    className="object-cover w-full h-full my-auto clip-hexagon"
-    src="../images/who/michaela.jpeg"
-    alt="Michaela of Been Coffee"
-  />
-  <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
-    Michaela
-  </h3>
-</div>
+            <div className="relative">
+              <StaticImage
+                className="object-cover w-full h-full my-auto clip-hexagon"
+                src="../images/who/michaela.jpeg"
+                alt="Michaela of Been Coffee"
+              />
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 left-1/2 bg-tuscany">
+                Michaela
+              </h3>
+            </div>
 
             <div className="relative">
               <StaticImage
@@ -83,7 +85,7 @@ export default function WhoPage() {
                 src="../images/who/cal.jpg"
                 alt="Cal of Been Coffee"
               />
-              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 left-1/2 bg-tuscany">
                 Cal
               </h3>
             </div>
@@ -94,7 +96,7 @@ export default function WhoPage() {
                 src="../images/who/rafe.jpg"
                 alt="Rafe of Been Coffee"
               />
-              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 left-1/2 bg-tuscany">
                 Rafe
               </h3>
             </div>
@@ -105,14 +107,14 @@ export default function WhoPage() {
                 src="../images/who/jess.jpeg"
                 alt="Jess of Been Coffee"
               />
-              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 bg-tuscany left-1/2">
+              <h3 className="absolute bottom-0 p-2 m-0 text-white -translate-x-1/2 left-1/2 bg-tuscany">
                 Jess
               </h3>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="the-role" className="section--who">
+        {/* <section id="the-role" className="section--who">
           <div className="mb-8 content lg:mb-16">
             <h2 id="environment" className="title--who">
               The <span>Role</span>
@@ -151,7 +153,7 @@ export default function WhoPage() {
               </li>
             </ul>
           </div>
-        </section>
+        </section> */}
 
         <section className="section--who">
           <div className="mb-8 content lg:mb-16">
@@ -160,8 +162,10 @@ export default function WhoPage() {
             </h2>
           </div>
           <div className="content">
-          <p className=" border-l  border-tuscany-500 pl-8 text-[1.2em]">
-             We'd love to receive speculative  CVs, so if you're interested in working with us, email <a href="mailto:careers@been.coffee">careers@been.coffee</a> with
+            <p className=" border-l  border-tuscany-500 pl-8 text-[1.2em]">
+              We'd love to receive speculative CVs, so if you're interested in
+              working with us, email{" "}
+              <a href="mailto:careers@been.coffee">careers@been.coffee</a> with
               your CV and covering letter, or contact us via one of our social
               media platforms.
             </p>

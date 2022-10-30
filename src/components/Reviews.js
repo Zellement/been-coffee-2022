@@ -12,7 +12,7 @@ export default function Reviews() {
       query={graphql`
         query Reviews {
           allGoogleReview(
-            filter: { rating: { gte: 5 } }
+            filter: { rating: { gte: 4 } }
             sort: { fields: time, order: DESC }
           ) {
             edges {
