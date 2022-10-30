@@ -2,23 +2,35 @@ import React from "react"
 import { Link } from "gatsby"
 import Logo from "./atoms/Logo"
 import { AnimatePresence, motion } from "framer-motion"
+import { StaticImage } from "gatsby-plugin-image"
 
-export default function Nav( {linkClassName} ) {
+export default function Nav({ linkClassName }) {
   return (
-    <nav className="text-3xl lg:text-6xl font-riverside text-navy">
+    <nav className="text-3xl font-riverside text-navy lg:text-6xl">
       <ul className="">
         <AnimatePresence>
-            <motion.li
-              initial={{ x: "-500" }}
-              transition={{ delay: 0.5 }}
-              animate={{ x: 0 }}
-              exit={{ x: "-500" }}
-              className="fixed top-0 left-0 z-50"
+          <motion.li
+            initial={{ x: "-500" }}
+            transition={{ delay: 0.5 }}
+            animate={{ x: 0 }}
+            exit={{ x: "-500" }}
+            className="fixed top-0 left-0 z-50"
+          >
+            <Link
+              className={
+                "relative  flex flex-row items-center gap-4 p-4 leading-none transition-all duration-300 hover:px-8 focus:px-8 lg:block " +
+                linkClassName
+              }
+              to="/"
             >
-              <Link className={"relative block p-4 transition-all duration-300 focus:px-8 hover:px-8 leading-none " + linkClassName} to="/">
-                <Logo className="w-24 h-auto lg:w-56" />
-              </Link>
-            </motion.li>
+              <Logo className="relative z-20 w-24 h-auto lg:w-56" />
+              <StaticImage
+                className="z-10 w-20 aspect-square lg:w-40 lg:-translate-y-8 lg:translate-x-24"
+                src="../images/goodfood.png"
+                alt="Good Food Blue Ribbon Winners 2023"
+              />
+            </Link>
+          </motion.li>
         </AnimatePresence>
         <motion.li
           initial={{ x: "500" }}
@@ -26,7 +38,14 @@ export default function Nav( {linkClassName} ) {
           animate={{ x: 0 }}
           className="fixed top-0 right-0 z-50"
         >
-          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 leading-none " + linkClassName} activeClassName="text-butterscotch" to="/where/">
+          <Link
+            className={
+              "relative block p-4 leading-none transition-all duration-300 hover:px-8 hover:text-butterscotch focus:px-8 focus:text-butterscotch " +
+              linkClassName
+            }
+            activeClassName="text-butterscotch"
+            to="/where/"
+          >
             Where
           </Link>
         </motion.li>
@@ -36,7 +55,14 @@ export default function Nav( {linkClassName} ) {
           animate={{ x: 0 }}
           className="fixed bottom-0 left-0 z-50"
         >
-          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 leading-none " + linkClassName} activeClassName="text-butterscotch" to="/who/">
+          <Link
+            className={
+              "relative block p-4 leading-none transition-all duration-300 hover:px-8 hover:text-butterscotch focus:px-8 focus:text-butterscotch " +
+              linkClassName
+            }
+            activeClassName="text-butterscotch"
+            to="/who/"
+          >
             Who
           </Link>
         </motion.li>
@@ -46,7 +72,14 @@ export default function Nav( {linkClassName} ) {
           animate={{ x: 0 }}
           className="fixed bottom-0 right-0 z-50"
         >
-          <Link className={"relative block p-4 transition-all duration-300 hover:text-butterscotch focus:text-butterscotch focus:px-8 hover:px-8 leading-none " + linkClassName} activeClassName="text-butterscotch" to="/contact/">
+          <Link
+            className={
+              "relative block p-4 leading-none transition-all duration-300 hover:px-8 hover:text-butterscotch focus:px-8 focus:text-butterscotch " +
+              linkClassName
+            }
+            activeClassName="text-butterscotch"
+            to="/contact/"
+          >
             Contact
           </Link>
         </motion.li>
