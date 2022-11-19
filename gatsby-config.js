@@ -48,7 +48,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://www.been.coffee",
-        sitemap: "https://www.been.coffee/sitemap.xml",
+        sitemap: "https://www.been.coffee/sitemap-index.xml",
         policy: [{userAgent: '*', allow: '/'}]
       },
     },
