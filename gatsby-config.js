@@ -5,6 +5,7 @@ module.exports = {
     title: `Been Coffee`,
     description: `Independent, family-run coffee shop`,
     author: `@zellement`,
+    siteUrl: `https://www.been.coffee`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,6 +20,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
