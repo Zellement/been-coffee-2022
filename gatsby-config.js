@@ -47,15 +47,7 @@ module.exports = {
       options: {
         host: "https://www.been.coffee",
         sitemap: "https://www.been.coffee/sitemap.xml",
-        resolveEnv: () => process.env.GATSBY_ENV,
-        env: {
-          development: {
-            policy: [{ userAgent: "*", disallow: ["/"] }],
-          },
-          production: {
-            policy: [{ userAgent: "*", allow: "/" }],
-          },
-        },
+        policy: [{userAgent: '*', allow: '/'}]
       },
     },
     {
