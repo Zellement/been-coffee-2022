@@ -119,7 +119,7 @@ Content
 }
 
 .overlay {
-  clip-path: polygon(0 0, 100% 15%, 100% 75%, 0 90%);
+  clip-path: polygon(0 0, 100% 12%, 100% 78%, 0 90%);
 }
 
 .where-image {

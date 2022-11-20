@@ -54,11 +54,19 @@ export default function IndexPage() {
         </AnimatePresence>
 
         <AnimatePresence>
-          <div className="absolute bottom-0 mb-[14.5rem] w-full p-4 text-right text-3xl text-butterscotch lg:left-0 lg:top-1/2 lg:bottom-auto lg:-translate-y-1/2 lg:transform lg:text-left">
+          <div className="absolute bottom-0 mb-[13.5rem] w-full flex flex-col p-4 text-right text-3xl text-butterscotch lg:left-0 lg:top-1/2 lg:bottom-auto lg:mt-12 lg:-translate-y-1/2 gap-0 lg:transform lg:text-left">
             <h1 className="sr-only">Been Coffee</h1>
             <h2 className="sr-only">
               Independent coffee shop between Derby & Burton, UK.
             </h2>
+            <motion.p
+              initial={{ x: 300, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: 2, duration: 1, type: "intertia" }}
+              className="font-riverside text-sm text-butterscotch-500 lg:text-[2.5vw]"
+            >
+              Fully independent & family run.
+            </motion.p>
             <motion.p
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
