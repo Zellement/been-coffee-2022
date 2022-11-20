@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function Nav({ linkClassName }) {
   return (
-    <nav className="text-3xl font-riverside text-navy lg:text-6xl">
+    <nav className="text-3xl font-riverside text-navy lg:text-6xl main-nav">
       <ul className="">
         <AnimatePresence>
           <motion.li

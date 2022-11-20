@@ -153,3 +153,7 @@ Content
   clip-path: polygon(13% 14%, 64% 0, 100% 37%, 88% 82%, 35% 99%, 0 60%);
 
 }
+
+.main-nav a {
+  text-shadow: 1px 1px 1px theme("colors.seashell.DEFAULT");
+}
