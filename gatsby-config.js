@@ -22,7 +22,7 @@ module.exports = {
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-sitemap`,
-      output: `/sitemap.xml`
+      output: `/sitemap`
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
