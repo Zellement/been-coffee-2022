@@ -61,9 +61,9 @@ export default function Nav({ linkClassName }) {
               linkClassName
             }
             activeClassName="text-butterscotch"
-            to="/who/"
+            to="/about/"
           >
-            Who
+            About
           </Link>
         </motion.li>
         <motion.li

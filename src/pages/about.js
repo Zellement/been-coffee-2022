@@ -18,7 +18,7 @@ export default function WhoPage() {
       <section className="max-w-screen-md px-8 mx-auto mt-40">
         <div className="content">
           <h1 className="text-4xl text-center font-riverside text-tuscany lg:text-7xl">
-            Who are we?
+            About
           </h1>
         </div>
       </section>
@@ -315,14 +315,14 @@ export default function WhoPage() {
                 <h3 className="my-2">Michaela</h3>
                 <h5 className="mb-8 text-tuscany-500">Assistant Manager</h5>
                 <p>
-                  Michaela joins Been Coffee coming from a local hospitality
+                  Michaela comes from a local hospitality
                   brand, and brings with her a wealth of managerial experience
                   in the sector.
                 </p>
                 <p>
                   A resident of the local area, Michaela's drive and passion to
                   offer exceptional service to all Been Coffee's customers is
-                  exceptional.
+                  fantastic, and we're lucky to have her.
                 </p>
               </div>
             </div>
