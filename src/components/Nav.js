@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function Nav({ linkClassName }) {
   return (
-    <nav className="text-3xl font-riverside text-navy lg:text-6xl main-nav">
+    <nav className="text-3xl main-nav font-riverside text-navy lg:text-6xl">
       <ul className="">
         <AnimatePresence>
           <motion.li
@@ -23,9 +23,9 @@ export default function Nav({ linkClassName }) {
               }
               to="/"
             >
-              <Logo className="relative z-20 w-24 h-auto lg:w-56" />
+              <Logo className="relative z-20 w-24 h-auto lg:w-40 2xl:w-56" />
               <StaticImage
-                className="z-10 w-20 aspect-square lg:w-40 lg:-translate-y-8 lg:translate-x-24"
+                className="z-10 w-20 aspect-square lg:w-28 lg:-translate-y-4 lg:translate-x-20 2xl:w-40 2xl:-translate-y-8 2xl:translate-x-24"
                 src="../images/goodfood.png"
                 alt="Good Food Blue Ribbon Winners 2023"
               />
