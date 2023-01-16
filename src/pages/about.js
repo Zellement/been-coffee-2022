@@ -58,6 +58,9 @@ export default function WhoPage() {
               </p>
 
               <div className="flex flex-row flex-wrap justify-center gap-4 pb-16 border-b border-tuscany-50 ">
+                <AnchorLink className="btn btn--tuscany" href="#fooddrink">
+                  Food & Drink
+                </AnchorLink>
                 <AnchorLink className="btn btn--tuscany" href="#environment">
                   Environment
                 </AnchorLink>
@@ -70,6 +73,96 @@ export default function WhoPage() {
                 <Link to="/careers/" className="btn btn--tuscany">
                   Careers
                 </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section--who">
+          <div className="mb-8 content lg:mb-16">
+            <h2 id="fooddrink" className="title--who">
+              <span>Food</span> & <span>Drink</span>
+            </h2>
+          </div>
+          <div className="content">
+            <div className="relative">
+              <StaticImage
+                className="object-cover w-full h-full "
+                src="../images/who/food-drink.jpg"
+                alt="Metal recycles forever - picture of cans and bottles, no plastic"
+              />
+            </div>
+            <div class="relative">
+              <p className="mx-auto max-w-[450px] py-8 text-center text-lg lg:-mt-12 lg:bg-tuscany-500 lg:bg-white lg:p-8 lg:text-white">
+                We offer a variety of both food and drink options, come in and
+                find out what we have on offer at the moment.
+              </p>
+              <div className="flex flex-wrap items-center justify-center gap-4 mb-4 text-center">
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Bagels
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Paninis
+                </h2>
+                <h2 className="m-0 font-riverside-outline ">
+                  Sausage, Bacon, Egg & Vegan Sausage Cobs
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-700">
+                  Handmade Sausage Rolls
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Cinnamon Buns
+                </h2>
+                <h2 className="m-0 font-riverside-outline">Cookies</h2>
+                <h2 className="m-0 font-riverside-outline ">
+                  Cakes & Flapjacks
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Porridge
+                </h2>
+                <h2 className="m-0 font-riverside-outline">Toast</h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Teacakes
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Croissants
+                </h2>
+              </div>
+              <div className="flex flex-wrap items-center justify-center gap-4 text-center">
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Flat White
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Long Black
+                </h2>
+                <h2 className="m-0 font-riverside-outline">Latte</h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Americano
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Cappuccino
+                </h2>
+                <h2 className="m-0 font-riverside-outline">Cookies</h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-700">
+                  Iced Coffee
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Tea
+                </h2>
+                <h2 className="m-0 font-riverside-outline">Toast</h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Chai, Matcha & Turmeric
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Juice
+                </h2>
+                <h2 className="m-0 font-riverside-outline">Pop</h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Milkshakes
+                </h2>
+                <h2 className="m-0 font-riverside-outline text-butterscotch-500">
+                  Smoothies
+                </h2>
               </div>
             </div>
           </div>
@@ -315,9 +408,8 @@ export default function WhoPage() {
                 <h3 className="my-2">Michaela</h3>
                 <h5 className="mb-8 text-tuscany-500">Assistant Manager</h5>
                 <p>
-                  Michaela comes from a local hospitality
-                  brand, and brings with her a wealth of managerial experience
-                  in the sector.
+                  Michaela comes from a local hospitality brand, and brings with
+                  her a wealth of managerial experience in the sector.
                 </p>
                 <p>
                   A resident of the local area, Michaela's drive and passion to
