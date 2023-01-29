@@ -93,7 +93,7 @@ export default function WhoPage() {
               />
             </div>
             <div class="relative">
-              <p className="mx-auto max-w-[450px] py-8 text-center text-lg lg:-mt-12 lg:bg-tuscany-500 lg:bg-white lg:p-8 lg:text-white">
+              <p className="mx-auto max-w-[450px] py-8 text-center text-lg lg:-mt-12 lg:bg-tuscany-500  lg:p-8 lg:text-white">
                 We offer a variety of both food and drink options, come in and
                 find out what we have on offer at the moment.
               </p>
