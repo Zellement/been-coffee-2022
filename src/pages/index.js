@@ -103,9 +103,9 @@ export default function IndexPage() {
               initial={{ x: 300, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 3.2, duration: 1, type: "intertia" }}
-              className="text-lg font-riverside text-navy lg:text-[2.75vw] lg:text-butterscotch"
+              className="text-sm font-riverside text-navy lg:text-[1.82vw] lg:text-butterscotch"
             >
-              Vegan & Low Gluten Options.
+              Vegan / Low Gluten Options & Dog Friendly.
             </motion.p>
           </div>
         </AnimatePresence>
