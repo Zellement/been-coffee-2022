@@ -27,16 +27,13 @@ export default function WhoPage() {
         <div className="relative lg:flex lg:flex-row">
           <StaticImage
             className="object-cover w-full h-full g:items-center saz-martin-hero lg:w-3/4 xl:w-3/4"
-            src="../images/who/saz-martin-hero.jpg"
-            alt="Martin and Sarah, Directors of Been Coffee"
+            src="../images/who/hero.jpg"
+            alt="Martin, Dan and Sarah, Directors of Been Coffee"
           />
           <span className="absolute bottom-0 left-0 px-3 py-2 mb-4 ml-4 text-xs font-bold bg-seashell sm:text-base lg:inset-auto lg:right-0 lg:top-1/2 lg:-ml-8 lg:w-4/12 lg:p-8 lg:text-xl xl:w-1/3 2xl:text-2xl">
-            Martin &amp; Sarah
+            Martin, Dan &amp; Sarah
             <span className="block text-[0.9em] font-normal">
               Co-Directors of Been Coffee
-            </span>
-            <span className="block text-[0.7em] font-normal opacity-70">
-              Brother-in-Law & Sister-in-Law
             </span>
           </span>
         </div>
@@ -52,7 +49,7 @@ export default function WhoPage() {
             </h2>
             <div className="content">
               <p className="mx-auto max-w-screen-sm  pt-8 text-center text-[1.2em]">
-                Been Coffee was founded in late 2021 by Martin and Sarah, with a
+                Been Coffee was founded in late 2021 by Martin, Sarah &amp; Dan, with a
                 view to offering an alternative to big brand chains and UHT milk
                 coffee machines.
               </p>

@@ -29,7 +29,7 @@ export default function IndexPage() {
             initial={{ width: "0", opacity: 0 }}
             transition={{ delay: 1.5, duration: 2, type: "tween" }}
             animate={{ width: "100%", opacity: 1 }}
-            className="overlay absolute bottom-0 right-0 mb-24 h-[300px] w-full max-w-[400px] bg-tuscany lg:hidden"
+            className="overlay absolute bottom-0 right-0 mb-12 h-[300px] w-full max-w-[400px] bg-tuscany lg:hidden"
           ></motion.div>
         </AnimatePresence>
 
@@ -54,7 +54,7 @@ export default function IndexPage() {
         </AnimatePresence>
 
         <AnimatePresence>
-          <div className="absolute bottom-0 mb-[13.5rem] w-full flex flex-col p-4 text-right text-3xl text-butterscotch lg:left-0 lg:top-1/2 lg:bottom-auto lg:mt-12 lg:-translate-y-1/2 gap-0 lg:transform lg:text-left">
+          <div className="absolute bottom-0 mb-[10.5rem] w-full flex flex-col p-4 text-right text-3xl text-butterscotch lg:left-0 lg:top-1/2 lg:bottom-auto lg:mt-12 lg:-translate-y-1/2 gap-0 lg:transform lg:text-left">
             <h1 className="sr-only">Been Coffee</h1>
             <h2 className="sr-only">
               Independent coffee shop between Derby & Burton, UK.
