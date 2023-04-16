@@ -16,7 +16,7 @@ export default function Barista() {
         </p>
         <ul>
           <li>15 - 25 hours per week</li>
-          <li>£9.50 p/h</li>
+          <li>£10.42 p/h</li>
           <li>Shifts from 6-10 hours</li>
           <li>
             Must be available one weekend day per week, and most bank holidays
