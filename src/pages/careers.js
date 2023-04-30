@@ -2,9 +2,7 @@ import React from "react"
 import Seo from "../components/Seo"
 import Nav from "../components/Nav"
 
-import { StaticImage } from "gatsby-plugin-image"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import Barista from "../components/Careers/Barista"
+import BaristaAllRounder from "../components/Careers/BaristaAllRounder"
 
 export default function WhoPage() {
   return (
@@ -45,7 +43,7 @@ export default function WhoPage() {
           </div>
         </section> */}
 
-        <Barista />
+        <BaristaAllRounder />
 
         <section className="section--who">
           <div className="mb-8 content lg:mb-16">
