@@ -25,6 +25,18 @@ module.exports = {
       output: `/sitemap`
     },
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-CVLJZSC9E6", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -52,7 +64,7 @@ module.exports = {
       options: {
         host: "https://www.been.coffee",
         sitemap: "https://www.been.coffee/sitemap/sitemap-index.xml",
-        policy: [{userAgent: '*', allow: '/'}]
+        policy: [{ userAgent: '*', allow: '/' }]
       },
     },
     {
