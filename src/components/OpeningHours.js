@@ -18,9 +18,9 @@ export default function OpeningHours(props) {
       <div className="">Friday</div>
       <div className="text-left">7am - 5:30pm</div>
       <div className="">Saturday</div>
-      <div className="text-left">8am - 5:30pm</div>
+      <div className="text-left">7:30am - 5:30pm</div>
       <div className="">Sunday</div>
-      <div className="text-left">8am - 5pm</div>
+      <div className="text-left">7:30am - 5pm</div>
     </div>
   )
 }
