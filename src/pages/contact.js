@@ -30,7 +30,7 @@ export default function ContactPage() {
         <ContactForm />
         <OpeningHours
           showTitle={true}
-          className="max-w-sm mx-auto mt-16 text-xs lg:text-sm"
+          className="max-w-md mx-auto mt-16 text-xs lg:text-sm"
         />
 
         <Social />
