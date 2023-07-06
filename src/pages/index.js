@@ -10,7 +10,7 @@ export default function IndexPage() {
     <>
       <Seo
         title="Been Coffee | Coffee shop at Derby & Burton Services off Toyota Island on the A38 and A50"
-        description="Been Coffee is an independent, family-run coffee shop with amazing coffee, tea, bubble tea, cakes, bagels, cobs & paninis near Derby & Willington, UK"
+        description="Been Coffee is an independent, family-run coffee shop with amazing coffee, tea, bubble tea, boba tea, cakes, bagels, cobs & paninis near Derby & Willington, UK"
       />
       <Nav linkClassName="text-navy" />
       <div className="relative flex w-full h-screen overflow-hidden">
