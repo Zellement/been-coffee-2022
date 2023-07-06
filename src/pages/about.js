@@ -150,6 +150,9 @@ export default function WhoPage() {
                 <h2 className="m-0 font-riverside-outline text-tuscany-500">
                   Chai, Matcha & Turmeric
                 </h2>
+                <h2 className="m-0 font-riverside-outline text-tuscany-500">
+                  Iced &amp; Bubble Tea
+                </h2>
                 <h2 className="m-0 font-riverside-outline text-butterscotch-500">
                   Juice
                 </h2>
