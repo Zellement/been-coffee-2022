@@ -17,10 +17,10 @@ export default function WhoPage() {
           <h1 className="text-4xl text-center font-riverside text-tuscany lg:text-7xl">
             Careers
           </h1>
-          {/* <p>
+          <p>
             No career opportunities at the moment. Please watch our social media
             for updates.
-          </p> */}
+          </p>
         </div>
       </section>
       <div className="flex flex-col gap-8 mb-16">
@@ -43,7 +43,7 @@ export default function WhoPage() {
           </div>
         </section> */}
 
-        <BaristaAllRounder />
+        {/* <BaristaAllRounder /> */}
 
         <section className="section--who">
           <div className="mb-8 content lg:mb-16">
