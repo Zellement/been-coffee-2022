@@ -381,9 +381,9 @@ export default function WhoPage() {
 
               <div className="my-auto content md:w-3/5">
                 <h3 className="my-2">Dan</h3>
-                <h5 className="mb-8 text-tuscany-500">Digital Director</h5>
+                <h5 className="mb-8 text-tuscany-500">Brand Director</h5>
                 <p>
-                  As the Digital Director, Dan takes care of all things to do
+                  As the Brand Director, Dan takes care of all things to do
                   with social media, the website, the till, behind-the-scenes
                   operations as well as improvements when it comes to how the
                   business operates from a digital perspective.
@@ -395,6 +395,7 @@ export default function WhoPage() {
                 </p>
               </div>
             </div>
+            
             <div className="flex flex-col md:flex-row md:gap-16">
               <div className="m-auto flex max-w-[270px] items-center md:order-last md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
