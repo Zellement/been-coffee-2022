@@ -26,8 +26,8 @@ export default function Nav({ linkClassName }) {
               <Logo className="relative z-20 w-24 h-auto lg:w-40 2xl:w-56" />
               <StaticImage
                 className="z-10 w-20 aspect-square lg:w-28 lg:-translate-y-4 lg:translate-x-20 2xl:w-40 2xl:-translate-y-8 2xl:translate-x-24"
-                src="../images/goodfood.png"
-                alt="Good Food Blue Ribbon Winners 2023"
+                src="../images/goodfood.jpg"
+                alt="Good Food Award Winners 2024"
               />
             </Link>
           </motion.li>
