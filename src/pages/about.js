@@ -400,7 +400,7 @@ export default function WhoPage() {
               <div className="m-auto flex max-w-[270px] items-center md:order-last md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
                   className="self-center justify-center block w-full h-auto my-auto clip-hexagon"
-                  src="../images/who/michaela.jpeg"
+                  src="../images/who/michaela.jpg"
                   alt="Michaela of Been Coffee"
                 />
               </div>
