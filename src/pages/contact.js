@@ -2,6 +2,7 @@ import React from "react"
 import Seo from "../components/Seo"
 import Nav from "../components/Nav"
 import OpeningHours from "../components/OpeningHours"
+import FaqBlock from "../components/FaqBlock"
 import ContactForm from "../components/ContactForm"
 
 import Social from "../components/Social"
@@ -27,6 +28,7 @@ export default function ContactPage() {
           if you'd be interested in becoming a supply partner, please reach out
           to us using the form below.
         </p>
+        <FaqBlock />
         <ContactForm />
         <OpeningHours
           showTitle={true}
