@@ -5,7 +5,7 @@ module.exports = {
     title: `Been Coffee`,
     description: `Independent, family-run coffee shop`,
     author: `@zellement`,
-    siteUrl: `https://www.been.coffee`
+    siteUrl: `https://www.been.coffee`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,7 +22,7 @@ module.exports = {
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-sitemap`,
-      output: `/sitemap`
+      output: `/sitemap`,
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
@@ -32,7 +32,7 @@ module.exports = {
         ],
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: true
+          head: true,
         },
       },
     },
@@ -64,17 +64,17 @@ module.exports = {
       options: {
         host: "https://www.been.coffee",
         sitemap: "https://www.been.coffee/sitemap/sitemap-index.xml",
-        policy: [{ userAgent: '*', allow: '/' }]
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `been-coffee`,
+        short_name: `been-coffee`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FAB944`,
+        theme_color: `#FAB944`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`,
       },
