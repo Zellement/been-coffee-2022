@@ -49,9 +49,13 @@ export default function WhoPage() {
             </h2>
             <div className="content">
               <p className="mx-auto max-w-screen-sm  pt-8 text-center text-[1.2em]">
-                Been Coffee was founded in late 2021 by Martin, Sarah &amp; Dan, with a
-                view to offering an alternative to big brand chains and UHT milk
-                coffee machines.
+                Been Coffee was founded in late 2021 by Martin, Sarah &amp; Dan,
+                with a view to offering an alternative to big brand chains and
+                UHT milk coffee machines. Award-winning, independent,
+                environmentally-friendly, coffee-loving and dog-friendly, Been
+                Coffee serves specialty coffee, loose-leaf tea, locally sourced
+                food and more, all hand-crafted in a genuinely welcoming
+                environment. The perfect pit-stop for any weary traveller.
               </p>
 
               <div className="flex flex-row flex-wrap justify-center gap-4 pb-16 border-b border-tuscany-50 ">
@@ -383,8 +387,8 @@ export default function WhoPage() {
                 <h3 className="my-2">Dan</h3>
                 <h5 className="mb-8 text-tuscany-500">Brand Director</h5>
                 <p>
-                  As the Brand Director, Dan takes care of all things to do
-                  with social media, the website, the till, behind-the-scenes
+                  As the Brand Director, Dan takes care of all things to do with
+                  social media, the website, the till, behind-the-scenes
                   operations as well as improvements when it comes to how the
                   business operates from a digital perspective.
                 </p>
@@ -395,7 +399,7 @@ export default function WhoPage() {
                 </p>
               </div>
             </div>
-            
+
             <div className="flex flex-col md:flex-row md:gap-16">
               <div className="m-auto flex max-w-[270px] items-center md:order-last md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
