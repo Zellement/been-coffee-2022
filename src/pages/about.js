@@ -400,7 +400,7 @@ export default function WhoPage() {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row md:gap-16">
+            {/* <div className="flex flex-col md:flex-row md:gap-16">
               <div className="m-auto flex max-w-[270px] items-center md:order-last md:m-0 md:w-2/5 md:max-w-none">
                 <StaticImage
                   className="self-center justify-center block w-full h-auto my-auto clip-hexagon"
@@ -422,7 +422,7 @@ export default function WhoPage() {
                   fantastic, and we're lucky to have her.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="my-16">
             <StaticImage
